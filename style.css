@@ -52,11 +52,11 @@ body {
 }
 
 .avatar {
-    
+
     width: 100%;
     height: auto;
     text-align: center;
-    
+
 }
 
 .avatar img {
@@ -545,7 +545,7 @@ body {
 
 }
 
-.footer__text{
+.footer__text {
     width: 100%;
     margin-left: 450px;
 
@@ -556,28 +556,30 @@ body {
 
 
 
-@media (max-width: 378px) {
+@media (max-width: 490px) {
 
     /* .contenedor__general [id] {
         scroll-margin-top: -2px;
 
     } */
 
+ 
+
     .avatar {
-        position: fixed;
-        top: 30px;
-        right: 130px;
+
         width: 100%;
         height: auto;
-        text-align: right;
+        margin-right: -40px;
+    
     }
-
+    
     .avatar img {
         width: 50px;
         border-radius: 100%;
         border: 2px solid white;
         z-index: 9;
     }
+    
 
 
 
@@ -695,7 +697,7 @@ body {
     .footer {
         /* grid-area: footer; */
         width: 100%;
-        height: 60px;
+        height: 80px;
         background-color: #0f0c29;
         display: flex;
         align-items: center;
@@ -708,6 +710,13 @@ body {
         position: fixed;
         bottom: 0;
         left: 0;
+
+    }
+
+
+    .footer__text {
+        width: 100%;
+        margin-left: 30px;
 
     }
 

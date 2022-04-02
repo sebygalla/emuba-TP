@@ -546,17 +546,17 @@ body {
 
 
 
-@media (max-width: 386px) {
+@media (max-width: 378px) {
 
-    .contenedor__general [id] {
+    /* .contenedor__general [id] {
         scroll-margin-top: -2px;
 
-    }
+    } */
 
     .avatar {
         position: fixed;
-        top: 20px;
-        right: 20px;
+        top: 30px;
+        right: 130px;
         width: 100%;
         height: auto;
         text-align: right;

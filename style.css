@@ -6,9 +6,6 @@ body {
     font-size: 15pt;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     overflow-x: hidden;
-    position: relative;
-
-
 
 }
 
@@ -49,23 +46,27 @@ body {
 
     align-items: center;
     justify-content: center;
-    
+
 
 
 }
 
-.avatar{
+.avatar {
     position: fixed;
     top: 20px;
-    right: 80px;
+    right: 20px;
+    width: 100%;
+    height: auto;
+    text-align: right;
 }
 
 .avatar img {
-  
-    width: 60px;
+    width: 50px;
     border-radius: 100%;
-    border: 4px solid white;
+    border: 2px solid white;
+    z-index: 9;
 }
+
 
 .contenedor__texto {
     width: 55%;
@@ -147,7 +148,7 @@ body {
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-direction: alternate;
-    
+
 
 }
 
@@ -526,7 +527,7 @@ body {
 .footer {
     /* grid-area: footer; */
     width: 100%;
-    height: 80px;
+    height: 60px;
     background-color: #0f0c29;
     display: flex;
     align-items: center;
@@ -534,7 +535,7 @@ body {
     color: white;
     font-family: 'Roboto', sans-serif;
 
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
 
@@ -545,22 +546,24 @@ body {
 
 
 
-@media (max-width: 548px) {
+@media (max-width: 386px) {
 
     .contenedor__general [id] {
         scroll-margin-top: -2px;
 
     }
 
-    .avatar{
+    .avatar {
         position: fixed;
         top: 20px;
         right: 20px;
-        width: 50px;
+        width: 100%;
+        height: auto;
+        text-align: right;
     }
 
     .avatar img {
-     
+        width: 50px;
         border-radius: 100%;
         border: 2px solid white;
         z-index: 9;
@@ -677,6 +680,25 @@ body {
 
     .contenedor__siete h3 {
         font-size: 50px;
+    }
+
+    .footer {
+        /* grid-area: footer; */
+        width: 100%;
+        height: 60px;
+        background-color: #0f0c29;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        letter-spacing: 1px;
+
+        position: fixed;
+        bottom: 0;
+        left: 0;
+
     }
 
 

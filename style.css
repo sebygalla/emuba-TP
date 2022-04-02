@@ -491,29 +491,19 @@ body {
 
 /*Boton ir arriba*/
 
-
-.btn-scrolltop {
-    font-size: 20px;
-    position: fixed;
-    bottom: 100px;
-    right: 27px;
-    padding: 15px 19px;
-    background: red;
+.contenedor__texto a {
+    width: 50%;
+    margin: 0 auto;
+    text-decoration: none;
     color: white;
-    border: none;
-
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
-    transform: translateX(300px);
-    transition: .6s ease-in-out;
-    z-index: 999;
-    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-top: 2em;
+    background-color: #800080;
+    border-radius: 8px;
 
 }
 
-.btn-scrolltop-on {
-    transform: translateX(0px);
-}
 
 
 
@@ -521,8 +511,7 @@ body {
 
 
 
-
-@media (max-width: 391px) {
+@media (max-width: 576px) {
 
     .contenedor__general [id] {
         scroll-margin-top: -2px;
@@ -639,6 +628,22 @@ body {
 
     .contenedor__siete h3 {
         font-size: 50px;
+    }
+
+
+    /*Boton ir arriba*/
+
+    .contenedor__texto a {
+        width: 50%;
+        margin: 0 auto;
+        text-decoration: none;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        margin-top: 2em;
+        background-color: #800080;
+        border-radius: 8px;
+
     }
 
 

@@ -6,6 +6,7 @@ body {
     font-size: 15pt;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     overflow-x: hidden;
+    position: relative;
 
 
 
@@ -48,7 +49,7 @@ body {
 
     align-items: center;
     justify-content: center;
-    position: relative;
+    
 
 
 }

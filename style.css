@@ -58,6 +58,7 @@ body {
     text-align: center;
     display: flex;
     flex-flow: column nowrap;
+   
 
     line-height: 30px;
     letter-spacing: 1.5px;
@@ -75,6 +76,7 @@ body {
 .contenedor-btn a {
     width: 100px;
     height: auto;
+    
 
 }
 
@@ -90,6 +92,7 @@ body {
     letter-spacing: 1px;
     font-weight: 800;
     font-family: 'Roboto', sans-serif;
+    
 
 }
 
@@ -594,6 +597,8 @@ blockquote p {
 
     .contenedor-btn {
         margin-bottom: 2em;
+
+        
     }
 
 
@@ -697,10 +702,14 @@ blockquote p {
     .contenedor__cuatro P {
         font-size: 14px;
         text-align: justify;
+        display: block;
+        margin: 0 auto;
+        
     }
 
     .contenedor-btn {
         margin-bottom: 2em;
+
     }
 
     /* contenedor cinco */
@@ -721,6 +730,8 @@ blockquote p {
         font-size: 14px;
         text-align: justify;
     }
+
+  
 
 
     /* contenedor seis */

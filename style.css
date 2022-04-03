@@ -529,20 +529,30 @@ blockquote p {
 
 
 
-@media (max-width: 576px) {
+@media (max-width: 350px) {
 
     .contenedor__general [id] {
         scroll-margin-top: -2px;
 
     }
 
+    .contenedor__general{
+        height: auto;
+    }
+
+
 
     .contenedor__texto {
-        width: 80%;
+        width: 85%;
+        height: 100%;
         text-align: center;
     }
 
     /* contenedor uno */
+    .contenedor__uno{
+        height: 100vh;
+    }
+
     .contenedor__uno h1 {
         font-size: 40px;
         text-align: center;
@@ -558,7 +568,17 @@ blockquote p {
         text-align: justify;
     }
 
+    .contenedor__uno blockquote p {
+        font-size: 14px;
+    
+    }
+
     /* contenedor dos */
+
+    .contenedor__dos{
+        height: 100vh;
+    }
+
     .contenedor__dos h1 {
         font-size: 50px;
         text-align: center;
@@ -574,6 +594,9 @@ blockquote p {
     }
 
     /* contenedor tres */
+    .contenedor__tres{
+        height: 100vh;
+    }
     .contenedor__tres h1 {
         font-size: 50px;
         text-align: center;
@@ -589,6 +612,10 @@ blockquote p {
     }
 
     /* contenedor cuatro */
+    .contenedor__cuatro{
+        height: 100vh;
+    }
+
     .contenedor__cuatro h1 {
         font-size: 50px;
         text-align: center;
@@ -604,6 +631,10 @@ blockquote p {
     }
 
     /* contenedor cinco */
+    .contenedor__cinco{
+        height: 100vh;
+    }
+
     .contenedor__cinco h1 {
         font-size: 50px;
         text-align: center;
@@ -619,6 +650,10 @@ blockquote p {
     }
 
     /* contenedor seis */
+    .contenedor__seis{
+        height: 100vh;
+    }
+
     .contenedor__seis h1 {
         font-size: 50px;
         text-align: center;
@@ -633,6 +668,10 @@ blockquote p {
     }
 
     /* contenedor siete */
+    .contenedor__siete{
+        height: 100vh;
+    }
+
 
     .contenedor__siete h1 {
         font-size: 50px;

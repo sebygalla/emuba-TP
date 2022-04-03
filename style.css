@@ -92,7 +92,7 @@ body {
 }
 
 blockquote p {
-    font-size: 12px;
+    font-size: 14px;
 
 }
 
@@ -485,6 +485,7 @@ blockquote p {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
+ 
     margin-top: 2em;
     background-color: #800080;
     border-radius: 8px;

@@ -91,18 +91,18 @@ body {
 
 }
 
+blockquote p {
+    font-size: 12px;
+
+}
+
 
 
 
 /* contenedor uno */
 .contenedor__uno {
-    background: #bc4e9c;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f80759, #bc4e9c);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: rgb(242, 247, 9);
+    background: linear-gradient(113deg, rgba(242, 247, 9, 1) 37%, rgba(245, 247, 210, 0.8659663694579394) 78%, rgba(255, 255, 255, 1) 100%);
     width: 100vw;
     height: 100vh;
     /* border-radius: 20px; */
@@ -163,7 +163,7 @@ body {
 }
 
 .contenedor__uno P {
-    color: white;
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     padding-top: 50px;
@@ -224,12 +224,8 @@ body {
 
 /* contenedor tres */
 .contenedor__tres {
-    background: #11998e;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #38ef7d, #11998e);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: rgb(255, 0, 69);
+    background: linear-gradient(113deg, rgba(255, 0, 69, 1) 37%, rgba(245, 247, 210, 0.8659663694579394) 78%, rgba(255, 255, 255, 1) 100%);
 
     width: 100vw;
     height: 100vh;
@@ -265,7 +261,7 @@ body {
 }
 
 .contenedor__tres P {
-    color: white;
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     padding-top: 50px;
@@ -274,12 +270,8 @@ body {
 
 /* contenedor cuatro */
 .contenedor__cuatro {
-    background: #0f0c29;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: rgb(242,236,238);
+    background: linear-gradient(113deg, rgba(242,236,238,1) 37%, rgba(245,247,210,0.8659663694579394) 78%, rgba(255,255,255,1) 100%);
 
     width: 100vw;
     height: 100vh;
@@ -297,7 +289,7 @@ body {
 .contenedor__cuatro h1 {
     font-size: 40px;
     padding-top: 50px;
-    color: white;
+    color: black;
     animation-name: agrandar;
     animation-iteration-count: infinite;
     animation-duration: 1s;
@@ -310,13 +302,13 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 40px;
-    color: white;
+    color: black;
     line-height: 40px;
 
 }
 
 .contenedor__cuatro P {
-    color: white;
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     padding-top: 50px;
@@ -376,13 +368,8 @@ body {
 
 /* contenedor seis */
 .contenedor__seis {
-    background: #CAC531;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F3F9A7, #CAC531);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: rgb(92,203,58);
+    background: linear-gradient(113deg, rgba(92,203,58,1) 37%, rgba(245,247,210,0.8659663694579394) 78%, rgba(255,255,255,1) 100%);
     width: 100vw;
     height: 100vh;
     /* border-radius: 20px; */
@@ -502,6 +489,36 @@ body {
     background-color: #800080;
     border-radius: 8px;
 
+}
+
+/* modal */
+
+.modal__contenedor {
+    width: 100vw;
+    height: 100vh;
+    background-color: #11998ea3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.modal {
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
 }
 
 

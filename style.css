@@ -144,7 +144,20 @@ blockquote p {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     padding-top: 50px;
+}
 
+.contenedor__uno a {
+    text-decoration: none;
+    background-color: royalblue;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 2em;
+}
+
+.contenedor__uno a:hover {
+    background-color: blueviolet;
 }
 
 
@@ -198,6 +211,20 @@ blockquote p {
     padding-top: 50px;
 }
 
+.contenedor__dos a {
+    text-decoration: none;
+    background-color: royalblue;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 2em;
+}
+
+.contenedor__dos a:hover {
+    background-color: blueviolet;
+}
+
 
 /* contenedor tres */
 .contenedor__tres {
@@ -242,6 +269,20 @@ blockquote p {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     padding-top: 50px;
+}
+
+.contenedor__tres a {
+    text-decoration: none;
+    background-color: royalblue;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 2em;
+}
+
+.contenedor__tres a:hover {
+    background-color: blueviolet;
 }
 
 
@@ -289,6 +330,20 @@ blockquote p {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     padding-top: 50px;
+}
+
+.contenedor__cuatro a {
+    text-decoration: none;
+    background-color: royalblue;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 2em;
+}
+
+.contenedor__cuatro a:hover {
+    background-color: blueviolet;
 }
 
 
@@ -342,6 +397,20 @@ blockquote p {
     padding-top: 50px;
 }
 
+.contenedor__cinco a {
+    text-decoration: none;
+    background-color: royalblue;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 2em;
+}
+
+.contenedor__cinco a:hover {
+    background-color: blueviolet;
+}
+
 
 /* contenedor seis */
 .contenedor__seis {
@@ -385,6 +454,20 @@ blockquote p {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     padding-top: 50px;
+}
+
+.contenedor__seis a {
+    text-decoration: none;
+    background-color: royalblue;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 2em;
+}
+
+.contenedor__seis a:hover {
+    background-color: blueviolet;
 }
 
 
@@ -452,21 +535,22 @@ blockquote p {
 }
 
 
-
 /*Boton ir arriba*/
-
 .contenedor__texto a {
-    width: 50%;
+
     margin: 0 auto;
     text-decoration: none;
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-
+    font-weight: 400;
     margin-top: 2em;
-    background-color: #800080;
+    background-color: royalblue;
     border-radius: 8px;
+    padding: 5px 20px;
+}
 
+.contenedor__texto a:hover {
+    background-color: blueviolet;
 }
 
 /* modal */
@@ -710,15 +794,16 @@ blockquote p {
         margin: 0 auto;
     }
 
-    .contenedor__cuatro a{
+    .contenedor__cuatro a {
         text-decoration: none;
-        background-color:royalblue;
+        background-color: royalblue;
         color: white;
         padding: 8px 15px;
         border-radius: 10px;
         cursor: pointer;
     }
-    .contenedor__cuatro a:hover{
+
+    .contenedor__cuatro a:hover {
         background-color: blueviolet;
     }
 
@@ -741,15 +826,16 @@ blockquote p {
         text-align: justify;
     }
 
-    .contenedor__cinco a{
+    .contenedor__cinco a {
         text-decoration: none;
-        background-color:royalblue;
+        background-color: royalblue;
         color: white;
         padding: 8px 15px;
         border-radius: 10px;
         cursor: pointer;
     }
-    .contenedor__cinco a:hover{
+
+    .contenedor__cinco a:hover {
         background-color: blueviolet;
     }
 
@@ -775,15 +861,16 @@ blockquote p {
         text-align: justify;
     }
 
-    .contenedor__seis a{
+    .contenedor__seis a {
         text-decoration: none;
-        background-color:royalblue;
+        background-color: royalblue;
         color: white;
         padding: 8px 15px;
         border-radius: 10px;
         cursor: pointer;
     }
-    .contenedor__seis a:hover{
+
+    .contenedor__seis a:hover {
         background-color: blueviolet;
     }
 
@@ -808,6 +895,24 @@ blockquote p {
     .contenedor__siete P {
         font-size: 15px;
         text-align: center;
+    }
+
+    /*Boton ir arriba*/
+    .contenedor__texto a {
+
+        margin: 0 auto;
+        text-decoration: none;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        margin-top: 2em;
+        background-color: royalblue;
+        border-radius: 8px;
+        padding: 5px 20px;
+    }
+
+    .contenedor__texto a:hover {
+        background-color: blueviolet;
     }
 
 

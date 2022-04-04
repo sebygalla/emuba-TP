@@ -344,6 +344,7 @@ blockquote p {
 
 .contenedor__cuatro a:hover {
     background-color: blueviolet;
+    
 }
 
 
@@ -565,9 +566,13 @@ blockquote p {
     right: 0;
     bottom: 0;
     z-index: 999;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
+}
+
+.modal__contenedor--activo{
+    display: flex;
 }
 
 .modal {

@@ -558,18 +558,16 @@ blockquote p {
 .modal__contenedor {
     width: 100vw;
     height: 100vh;
-    background-color: #11998ea3;
+    background-color: #020b0be9;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: 999;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .modal {
@@ -581,6 +579,39 @@ blockquote p {
     align-items: center;
     justify-content: center;
     padding: 50px;
+    border-radius: 20px;
+}
+
+.modal h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.modal p {
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding-top: 30px;
+    text-align: justify;
+}
+
+.modal a {
+    text-decoration: none;
+    background-color: royalblue;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 2em;
+}
+
+.modal a:hover {
+    background-color: blueviolet;
 }
 
 
@@ -912,6 +943,74 @@ blockquote p {
     }
 
     .contenedor__texto a:hover {
+        background-color: blueviolet;
+    }
+
+    /* modal */
+
+    .modal__contenedor {
+        width: 100vw;
+        height: 100vh;
+        background-color: #020b0be9;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 999;
+
+        display: none;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .modal__contenedor--activo{
+        display: flex;
+    }
+
+    .modal {
+        width: 90%;
+        height: auto;
+        border-radius: 20px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+        text-align: center;
+    }
+
+    .modal h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+        color: black;
+        letter-spacing: 2px;
+        
+
+
+    }
+
+    .modal p {
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        padding-top: 30px;
+        text-align: justify;
+    }
+
+    .modal a {
+        text-decoration: none;
+        background-color: royalblue;
+        color: white;
+        padding: 8px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 2em;
+    }
+
+    .modal a:hover {
         background-color: blueviolet;
     }
 

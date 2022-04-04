@@ -58,43 +58,13 @@ body {
     text-align: center;
     display: flex;
     flex-flow: column nowrap;
-   
+
 
     line-height: 30px;
     letter-spacing: 1.5px;
 
 }
 
-.contenedor-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2em;
-
-}
-
-.contenedor-btn a {
-    width: 100px;
-    height: auto;
-    
-
-}
-
-.contenedor-btn input {
-    text-decoration: none;
-    background-color: #00a8ff;
-    color: white;
-    cursor: pointer;
-    border: none;
-    padding: 12px;
-    border-radius: 8px;
-    font-size: 18px;
-    letter-spacing: 1px;
-    font-weight: 800;
-    font-family: 'Roboto', sans-serif;
-    
-
-}
 
 blockquote p {
     font-size: 12px;
@@ -543,6 +513,10 @@ blockquote p {
 
 @media (max-width: 550px) {
 
+    strong {
+        font-weight: 800;
+    }
+
     .contenedor__general {
         width: 100vw;
         height: 100vh;
@@ -556,6 +530,7 @@ blockquote p {
 
     }
 
+    /* contenedor uno */
     .contenedor__uno {
         background: rgb(242, 247, 9);
         background: linear-gradient(113deg, rgba(242, 247, 9, 1) 37%, rgba(245, 247, 210, 0.8659663694579394) 78%, rgba(255, 255, 255, 1) 100%);
@@ -579,27 +554,36 @@ blockquote p {
         margin: 2em;
     }
 
+    .contenedor__uno a {
+        text-decoration: none;
+        background-color: royalblue;
+        color: white;
+        padding: 8px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .contenedor__uno a:hover {
+        background-color: blueviolet;
+    }
+
     .contenedor__uno h3 {
-        font-size: 20px;
+        font-size: 21px;
     }
 
     .contenedor__uno blockquote p {
-        font-size: 10px;
+        font-size: 11px;
         line-height: 20px;
         margin-top: 20px;
         padding: 0;
     }
 
     .contenedor__uno P {
-        font-size: 14px;
+        font-size: 15px;
         text-align: justify;
     }
 
-    .contenedor-btn {
-        margin-bottom: 2em;
 
-        
-    }
 
 
     /* contenedor dos */
@@ -630,24 +614,35 @@ blockquote p {
     }
 
     .contenedor__dos h3 {
-        font-size: 20px;
+        font-size: 21px;
     }
 
     .contenedor__dos blockquote p {
-        font-size: 10px;
+        font-size: 11px;
         line-height: 20px;
         margin-top: 20px;
         padding: 0;
     }
 
     .contenedor__dos P {
-        font-size: 14px;
+        font-size: 15px;
         text-align: justify;
     }
 
-    .contenedor-btn {
-        margin-bottom: 2em;
+    .contenedor__dos a {
+        text-decoration: none;
+        background-color: royalblue;
+        color: white;
+        padding: 8px 15px;
+        border-radius: 10px;
+        cursor: pointer;
     }
+
+    .contenedor__dos a:hover {
+        background-color: blueviolet;
+    }
+
+
 
     /* contenedor tres */
     .contenedor__tres {
@@ -661,55 +656,70 @@ blockquote p {
     }
 
     .contenedor__tres h3 {
-        font-size: 20px;
+        font-size: 21px;
     }
 
     .contenedor__tres blockquote p {
-        font-size: 10px;
+        font-size: 11px;
         line-height: 20px;
         margin-top: 20px;
         padding: 0;
     }
 
     .contenedor__tres P {
-        font-size: 14px;
+        font-size: 15px;
         text-align: justify;
     }
 
-    .contenedor-btn {
-        margin-bottom: 2em;
+    .contenedor__tres a {
+        text-decoration: none;
+        background-color: royalblue;
+        color: white;
+        padding: 8px 15px;
+        border-radius: 10px;
+        cursor: pointer;
     }
 
+    .contenedor__tres a:hover {
+        background-color: blueviolet;
+    }
+
+
+
     /* contenedor cuatro */
-
-
     .contenedor__cuatro h1 {
         font-size: 30px;
         margin-top: -20px;
     }
 
     .contenedor__cuatro h3 {
-        font-size: 20px;
+        font-size: 21px;
     }
 
     .contenedor__cuatro blockquote p {
-        font-size: 10px;
+        font-size: 11px;
         line-height: 20px;
         margin-top: 20px;
         padding: 0;
     }
 
     .contenedor__cuatro P {
-        font-size: 14px;
+        font-size: 15px;
         text-align: justify;
         display: block;
         margin: 0 auto;
-        
     }
 
-    .contenedor-btn {
-        margin-bottom: 2em;
-
+    .contenedor__cuatro a{
+        text-decoration: none;
+        background-color:royalblue;
+        color: white;
+        padding: 8px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .contenedor__cuatro a:hover{
+        background-color: blueviolet;
     }
 
     /* contenedor cinco */
@@ -723,15 +733,27 @@ blockquote p {
     }
 
     .contenedor__cinco h3 {
-        font-size: 20px;
+        font-size: 21px;
     }
 
     .contenedor__cinco p {
-        font-size: 14px;
+        font-size: 15px;
         text-align: justify;
     }
 
-  
+    .contenedor__cinco a{
+        text-decoration: none;
+        background-color:royalblue;
+        color: white;
+        padding: 8px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .contenedor__cinco a:hover{
+        background-color: blueviolet;
+    }
+
+
 
 
     /* contenedor seis */
@@ -745,39 +767,50 @@ blockquote p {
     }
 
     .contenedor__seis h3 {
-        font-size: 20px;
+        font-size: 21px;
     }
 
     .contenedor__seis p {
-        font-size: 14px;
+        font-size: 15px;
         text-align: justify;
     }
 
+    .contenedor__seis a{
+        text-decoration: none;
+        background-color:royalblue;
+        color: white;
+        padding: 8px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .contenedor__seis a:hover{
+        background-color: blueviolet;
+    }
+
+
     /* contenedor siete */
-
-
     .contenedor__siete h1 {
         font-size: 30px;
         margin-top: -20px;
     }
 
     .contenedor__siete h3 {
-        font-size: 20px;
+        font-size: 21px;
     }
 
     .contenedor__siete blockquote p {
-        font-size: 10px;
+        font-size: 11px;
         line-height: 20px;
         margin-top: 20px;
         padding: 0;
     }
 
     .contenedor__siete P {
-        font-size: 14px;
+        font-size: 15px;
         text-align: center;
     }
 
-    
+
 
 
 }

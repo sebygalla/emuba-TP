@@ -344,7 +344,7 @@ blockquote p {
 
 .contenedor__cuatro a:hover {
     background-color: blueviolet;
-    
+
 }
 
 
@@ -569,10 +569,13 @@ blockquote p {
     display: none;
     align-items: center;
     justify-content: center;
+
+    
 }
 
 .modal__contenedor--activo{
     display: flex;
+
 }
 
 .modal {
@@ -585,6 +588,8 @@ blockquote p {
     justify-content: center;
     padding: 50px;
     border-radius: 20px;
+
+    transition: all .5s ease-in-out;
 }
 
 .modal h1 {

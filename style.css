@@ -570,12 +570,15 @@ blockquote p {
     align-items: center;
     justify-content: center;
 
-    
+ 
+    transition: all 800ms;
+
 }
 
-.modal__contenedor--activo{
-    display: flex;
 
+
+.modal__contenedor--activo {
+    display: flex;
 }
 
 .modal {
@@ -589,7 +592,9 @@ blockquote p {
     padding: 50px;
     border-radius: 20px;
 
-    transition: all .5s ease-in-out;
+    transition: all 800ms;
+
+
 }
 
 .modal h1 {
@@ -974,7 +979,8 @@ blockquote p {
         justify-content: center;
 
     }
-    .modal__contenedor--activo{
+
+    .modal__contenedor--activo {
         display: flex;
     }
 
@@ -997,7 +1003,7 @@ blockquote p {
         font-size: 40px;
         color: black;
         letter-spacing: 2px;
-        
+
 
 
     }
